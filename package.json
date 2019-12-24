@@ -14,5 +14,8 @@
     "nuxt": "^2.0.0",
     "element-ui": "^2.4.11"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
+  }
 }

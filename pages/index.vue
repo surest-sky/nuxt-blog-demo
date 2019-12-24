@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-    <h1>surest</h1>
-    <Logo/>
   </div>
 </template>
 

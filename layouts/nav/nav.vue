@@ -2,7 +2,7 @@
   <div class="navbar">
     <el-tabs v-model="activeName" @tab-click="handleClick">
       <el-tab-pane class="table_label" label="思否" name="segment">
-        思否
+        <Segment />
       </el-tab-pane>
       <el-tab-pane class="table_label" label="Learnku" name="learnku">
         Learnku
@@ -15,12 +15,16 @@
 </template>
 
 <script>
+  import Segment from '@/pages/segment/index'
     export default {
         name: "Navbar",
         data() {
             return {
                 activeName: 'segment'
             }
+        },
+        components: {
+            Segment
         },
         methods: {
             handleClick() {
@@ -31,8 +35,12 @@
 </script>
 
 <style>
+  .el-tabs__nav {
+    width: 100%;
+  }
   .el-tabs__item {
     width: 30%;
+    text-align: center;
   }
 </style>
 
