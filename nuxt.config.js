@@ -44,6 +44,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
   ],
   /*
   ** Build configuration
@@ -57,5 +58,17 @@ export default {
     },
 
     vendor: ['element-ui']
-  }
+  },
+  axios: {
+    prefix: '/api/',
+    proxy: true
+  },
+  proxy: {
+    '/api/': {
+      target: 'http://data-collection.test/',
+      pathRewrite: {
+        '^/api/': ''
+      }
+    }
+  },
 }
