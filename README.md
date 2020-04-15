@@ -2,7 +2,7 @@
 
 > nuxt-blog-demo
 
-## Build Setup
+## 这是一个nuxt demo 小例子
 
 ``` bash
 # install dependencies
@@ -19,4 +19,6 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+演示地址: 
+http://nuxt-demo.surest.cn
+github: 

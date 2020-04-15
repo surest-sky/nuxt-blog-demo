@@ -5,19 +5,19 @@
   "author": "surestdeng",
   "private": true,
   "scripts": {
-    "dev": "cross-env BASE_URL=http://api.surest.cn/ NODE_ENV=development nuxt",
-    "build": "cross-env BASE_URL=http://api.surest.cn/ NODE_ENV=production nuxt build",
-    "start": "cross-env BASE_URL=http://api.surest.cn/ NODE_ENV=production nuxt start",
-    "generate": "cross-env BASE_URL=http://api.surest.cn/ NODE_ENV=production nuxt generate"
+    "dev": "cross-env BASE_URL=https://api.surest.cn/ NODE_ENV=development nuxt",
+    "build": "cross-env BASE_URL=https://api.surest.cn/ NODE_ENV=production nuxt build",
+    "start": "cross-env BASE_URL=https://api.surest.cn/ NODE_ENV=production nuxt start",
+    "generate": "cross-env BASE_URL=https://api.surest.cn/ NODE_ENV=production nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.0",
     "element-ui": "^2.4.11",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
     "cross-env": "^6.0.3",
     "less": "^3.10.3",
     "less-loader": "^5.0.0"
-  },
-  "devDependencies": {
   }
 }
